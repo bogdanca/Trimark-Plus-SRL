@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Trimark Plus - Servicii profesionale de transport și mutări în România. Peste 20 de ani de experiență. Transport marfă 3.5-20 tone. Soluții complete de relocare.">
+    <meta name="keywords"
+        content="transport marfă, mutări, relocări, transport mobila, servicii mutari, transport 3.5 tone, transport 20 tone, servicii transport Romania, mutari profesionale, relocari birouri, mutari locuinte, transport sigur, firma transport, companie mutari">
+    <title>Trimark Plus - Transport și Mutări Profesionale | Peste 20 Ani Experiență</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M5 20 L65 20 L65 35 L75 35 L90 45 L90 70 L5 70 Z' fill='%231e40af' stroke='%23000' stroke-width='3'/%3E%3Crect x='10' y='25' width='48' height='18' rx='2' fill='white' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M75 35 L90 45 L90 70 L75 70 Z' fill='%231e40af' stroke='%23000' stroke-width='3'/%3E%3Ccircle cx='28' cy='78' r='9' fill='%23000'/%3E%3Ccircle cx='28' cy='78' r='6' fill='white' stroke='%23000' stroke-width='1.5'/%3E%3Ccircle cx='72' cy='78' r='9' fill='%23000'/%3E%3Ccircle cx='72' cy='78' r='6' fill='white' stroke='%23000' stroke-width='1.5'/%3E%3Crect x='5' y='67' width='85' height='4' fill='%23000'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 64 64" fill="none">
+                    <!-- Truck cabin -->
+                    <rect x="8" y="28" width="16" height="18" rx="2" fill="currentColor" />
+                    <rect x="10" y="30" width="6" height="6" rx="1" fill="#1a1a2e" />
+                    <!-- Truck cargo area -->
+                    <rect x="24" y="24" width="28" height="22" rx="2" fill="currentColor" />
+                    <path d="M26 28 L50 28 L50 42 L26 42 Z" fill="#1a1a2e" opacity="0.3" />
+                    <!-- Wheels -->
+                    <circle cx="16" cy="48" r="5" fill="#1a1a2e" />
+                    <circle cx="16" cy="48" r="3" fill="currentColor" />
+                    <circle cx="44" cy="48" r="5" fill="#1a1a2e" />
+                    <circle cx="44" cy="48" r="3" fill="currentColor" />
+                    <!-- Cargo lines -->
+                    <line x1="30" y1="28" x2="30" y2="42" stroke="#6366f1" stroke-width="1.5" opacity="0.5" />
+                    <line x1="38" y1="28" x2="38" y2="42" stroke="#6366f1" stroke-width="1.5" opacity="0.5" />
+                    <line x1="46" y1="28" x2="46" y2="42" stroke="#6366f1" stroke-width="1.5" opacity="0.5" />
+                </svg>
+                <span class="logo-text">Trimark <span class="logo-plus">Plus</span></span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Acasă</a>
+                <a href="#services" class="nav-link">Servicii</a>
+                <a href="#program" class="nav-link">Program</a>
+                <a href="#about" class="nav-link">Despre Noi</a>
+                <a href="#prices" class="nav-link">Prețuri</a>
+                <a href="#contact" class="nav-link btn-primary">Contact</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg class="badge-icon" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M9 12L11 14L15 10M20.618 5.984A11.955 11.955 0 0112 4c-2.97 0-5.654 1.078-7.746 2.862A3.75 3.75 0 003 9.5v4a3.75 3.75 0 001.254 2.638A11.955 11.955 0 0012 20c2.97 0 5.654-1.078 7.746-2.862A3.75 3.75 0 0021 14.5v-4a3.75 3.75 0 00-1.254-2.638z"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span>Peste 20 de ani de experiență</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Transport și Mutări</span>
+                    <span class="title-line gradient-text">Profesionale în România</span>
+                </h1>
+                <p class="hero-description">
+                    Servicii complete de transport și relocare pentru orice necesitate.
+                    De la 3.5 până la 20 de tone, asigurăm soluții sigure și eficiente pentru afacerea sau casa
+                    dumneavoastră.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <span>Solicită Ofertă Gratuită</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M13 7L18 12M18 12L13 17M18 12H6" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="tel:+40722000000" class="btn btn-secondary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <span>Apelează Acum</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="hero-image">
+                <div class="image-card">
+                    <img src="hero-van.png" alt="Trimark Plus Transport Van" class="hero-van-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Servicii Complete</span>
+                <h2 class="section-title">Soluții <span class="gradient-text">Profesionale</span> de Transport</h2>
+                <p class="section-description">
+                    Oferim o gamă completă de servicii de transport și mutări, adaptate nevoilor dumneavoastră.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9 22V12h6v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Mutări Rezidențiale</h3>
+                    <p class="service-description">
+                        Mutări complete pentru case și apartamente. Echipa noastră gestionează totul, de la ambalare la
+                        instalare.
+                    </p>
+                    <ul class="service-features">
+                        <li>Ambalare profesională</li>
+                        <li>Transport sigur</li>
+                        <li>Montaj mobilier</li>
+                        <li>Asigurare completă</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Recomandat</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Mutări Comerciale</h3>
+                    <p class="service-description">
+                        Relocări de birouri și spații comerciale cu minimă întrerupere a activității. Planificare
+                        detaliată.
+                    </p>
+                    <ul class="service-features">
+                        <li>Planificare strategică</li>
+                        <li>Mutări în weekend</li>
+                        <li>Echipamente IT</li>
+                        <li>Manager dedicat</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M13 2L3 14h9l-1 8 10-12h-9l1-8zM16 3h5v5M4 15L9 10M21 10v8a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2h8"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Transport Marfă</h3>
+                    <p class="service-description">
+                        Transport profesional de marfă pentru orice necesitate. Flotă diversificată de la 3.5 la 20 tone.
+                    </p>
+                    <ul class="service-features">
+                        <li>Vehicule moderne</li>
+                        <li>Tracking în timp real</li>
+                        <li>Transport național</li>
+                        <li>Flexibilitate maximă</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Depozitare</h3>
+                    <p class="service-description">
+                        Spații de depozitare securizate pentru bunurile dumneavoastră. Soluții flexibile pe termen scurt sau
+                        lung.
+                    </p>
+                    <ul class="service-features">
+                        <li>Depozite securizate</li>
+                        <li>Monitorizare 24/7</li>
+                        <li>Acces flexibil</li>
+                        <li>Tarife competitive</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16V8z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12 12L3.27 6.96M12 12l8.73-5.04M12 12v9" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Servicii Ambalare</h3>
+                    <p class="service-description">
+                        Ambalare profesională cu materiale de calitate. Protejăm bunurile dumneavoastră cu grijă maximă.
+                    </p>
+                    <ul class="service-features">
+                        <li>Materiale premium</li>
+                        <li>Tehnici profesionale</li>
+                        <li>Etichetare clară</li>
+                        <li>Inventar detaliat</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Transport Urgent</h3>
+                    <p class="service-description">
+                        Servicii de transport urgent disponibile 24/7. Răspundem rapid la orice necesitate de transport.
+                    </p>
+                    <ul class="service-features">
+                        <li>Disponibilitate 24/7</li>
+                        <li>Răspuns în 30 min</li>
+                        <li>Prioritate maximă</li>
+                        <li>Livrare garantată</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="program">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Disponibilitate</span>
+                <h2 class="section-title">Program de <span class="gradient-text">Lucru</span></h2>
+                <p class="section-description">
+                    Suntem disponibili pentru serviciile dumneavoastră în fiecare zi a săptămânii. Pentru urgențe, oferim servicii non-stop.
+                </p>
+            </div>
+
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-day">Luni - Vineri</h3>
+                    <div class="program-time">07:00 - 22:00</div>
+                    <p class="program-note">Program complet pentru toate serviciile</p>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-day">Sâmbătă</h3>
+                    <div class="program-time">08:00 - 20:00</div>
+                    <p class="program-note">Servicii complete disponibile</p>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-day">Duminică</h3>
+                    <div class="program-time">09:00 - 18:00</div>
+                    <p class="program-note">Program redus</p>
+                </div>
+
+                <div class="program-card featured">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-day">Urgențe</h3>
+                    <div class="program-time">24/7</div>
+                    <p class="program-note">Disponibili non-stop pentru situații urgente</p>
+                </div>
+            </div>
+
+            <div class="program-cta">
+                <p>Aveți nevoie de servicii în afara programului? Contactați-ne pentru a discuta opțiunile disponibile.</p>
+                <a href="#contact" class="btn btn-primary">
+                    <span>Contactează-ne</span>
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                        <path d="M13 7L18 12M18 12L13 17M18 12H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-badge">Despre Noi</span>
+                    <h2 class="section-title">Peste <span class="gradient-text">20 de Ani</span> de Experiență în
+                        Transport</h2>
+                    <p class="about-text">
+                        Trimark Plus este o companie românească cu tradiție în domeniul transporturilor și
+                        mutărilor.
+                        De peste două decenii, ajutăm familii și afaceri să-și mute bunurile în siguranță și
+                        eficient.
+                    </p>
+                    <p class="about-text">
+                        Cu o flotă diversificată de vehicule, de la 3.5 tone până la 20 tone, suntem
+                        echipați să
+                        gestionăm
+                        orice tip de mutare sau transport. Echipa noastră de profesioniști experimentați
+                        asigură că
+                        fiecare
+                        proiect este tratat cu atenția și grija pe care o merită.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Profesionalism Garantat</h4>
+                                <p>Echipă dedicată și instruită profesional</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Asigurare Completă</h4>
+                                <p>Toate bunurile sunt asigurate pe durata transportului</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Răspuns Rapid</h4>
+                                <p>Disponibili 24/7 pentru urgențe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats-card">
+                    <div class="stats-card-header">
+                        <h3>De ce să ne alegeți?</h3>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-icon">🏆</div>
+                            <div class="stat-value">20+</div>
+                            <div class="stat-label">Ani pe Piață</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">🚚</div>
+                            <div class="stat-value">15+</div>
+                            <div class="stat-label">Vehicule în Flotă</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">👥</div>
+                            <div class="stat-value">5,000+</div>
+                            <div class="stat-label">Clienți Mulțumiți</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">⭐</div>
+                            <div class="stat-value">4.9/5</div>
+                            <div class="stat-label">Rating Mediu</div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Profesionalism de top! Au mutat întreaga noastră companie într-o singură zi, fără nicio
+                            problemă.
+                            Recomand cu încredere!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Maria Ionescu</strong>
+                            <span>Director, TechCorp SRL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices Section -->
+    <section id="prices" class="prices">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Prețuri Transparente</span>
+                <h2 class="section-title">Tarife <span class="gradient-text">Competitive</span> și Clare</h2>
+                <p class="section-description">
+                    Oferim prețuri transparente fără costuri ascunse. Alegeți pachetul potrivit nevoilor dumneavoastră.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Basic</h3>
+                        <p class="pricing-subtitle">Pentru mutări mici</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-from">de la</span>
+                        <span class="price-amount">300</span>
+                        <span class="price-currency">RON</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Vehicul 3.5 tone
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            2 muncitori
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Transport local (până la 50km)
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Asigurare de bază
+                        </li>
+                        <li class="disabled">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M6 18L18 6M6 6l12 12" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Servicii de ambalare
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Solicită Ofertă</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Cel Mai Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Standard</h3>
+                        <p class="pricing-subtitle">Pentru mutări complete</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-from">de la</span>
+                        <span class="price-amount">600</span>
+                        <span class="price-currency">RON</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Vehicul 7.5 tone
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            3-4 muncitori
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Transport național
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Asigurare completă
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Ambalare de bază inclusă
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Demontare/montare mobilier
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Solicită Ofertă</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Premium</h3>
+                        <p class="pricing-subtitle">Pentru mutări complexe</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-from">de la</span>
+                        <span class="price-amount">1,200</span>
+                        <span class="price-currency">RON</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Vehicul până la 20 tone
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Echipă completă (5+ muncitori)
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Transport internațional
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Asigurare premium
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Ambalare completă premium
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Depozitare temporară gratuită
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Manager dedicat
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Solicită Ofertă</a>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p><strong>Notă:</strong> Prețurile sunt orientative și pot varia în funcție de distanță, volum, acces
+                    și servicii suplimentare.
+                    Contactați-ne pentru o ofertă personalizată și exactă.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Contactați-ne</span>
+                <h2 class="section-title">Pregătiți pentru <span class="gradient-text">Mutarea Dumneavoastră?</span>
+                </h2>
+                <p class="section-description">
+                    Contactați-ne astăzi pentru o ofertă gratuită și personalizată. Suntem aici să vă ajutăm!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3>Telefon</h3>
+                        <p><a href="tel:+40722000000">+40 722 000 000</a></p>
+                        <p><a href="tel:+40722000001">+40 722 000 001</a></p>
+                        <span class="contact-label">Luni - Duminică: 07:00 - 22:00</span>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:contact@trimarkplus.ro">contact@trimarkplus.ro</a></p>
+                        <p><a href="mailto:oferte@trimarkplus.ro">oferte@trimarkplus.ro</a></p>
+                        <span class="contact-label">Răspundem în 24 ore</span>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3>Adresă</h3>
+                        <p>Str. Transportului Nr. 123</p>
+                        <p>București, Sector 3, 030123</p>
+                        <span class="contact-label">România</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nume Complet</label>
+                            <input type="text" id="name" name="name" required
+                                placeholder="Introduceți numele dumneavoastră">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="email@exemplu.ro">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+40 722 000 000">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Tip Serviciu</label>
+                            <select id="service" name="service" required>
+                                <option value="">Selectați serviciul dorit</option>
+                                <option value="residential">Mutare Rezidențială</option>
+                                <option value="commercial">Mutare Comercială</option>
+                                <option value="transport">Transport Marfă</option>
+                                <option value="storage">Depozitare</option>
+                                <option value="packing">Servicii Ambalare</option>
+                                <option value="urgent">Transport Urgent</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mesaj</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Descrieți nevoile dumneavoastră..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span>Trimite Solicitarea</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 64 64" fill="none">
+                            <rect x="8" y="28" width="16" height="18" rx="2" fill="currentColor" />
+                            <rect x="10" y="30" width="6" height="6" rx="1" fill="#1a1a2e" />
+                            <rect x="24" y="24" width="28" height="22" rx="2" fill="currentColor" />
+                            <path d="M26 28 L50 28 L50 42 L26 42 Z" fill="#1a1a2e" opacity="0.3" />
+                            <circle cx="16" cy="48" r="5" fill="#1a1a2e" />
+                            <circle cx="16" cy="48" r="3" fill="currentColor" />
+                            <circle cx="44" cy="48" r="5" fill="#1a1a2e" />
+                            <circle cx="44" cy="48" r="3" fill="currentColor" />
+                            <line x1="30" y1="28" x2="30" y2="42" stroke="#6366f1" stroke-width="1.5" opacity="0.5" />
+                            <line x1="38" y1="28" x2="38" y2="42" stroke="#6366f1" stroke-width="1.5" opacity="0.5" />
+                            <line x1="46" y1="28" x2="46" y2="42" stroke="#6366f1" stroke-width="1.5" opacity="0.5" />
+                        </svg>
+                        <span>Trimark <span class="logo-plus">Plus</span></span>
+                    </div>
+                    <p class="footer-description">
+                        Parteneri de încredere pentru toate nevoile dumneavoastră de transport și mutări. Cu peste 20 de ani
+                        de experiență, garantăm servicii profesionale și siguranță maximă.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Servicii</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Mutări Rezidențiale</a></li>
+                        <li><a href="#services">Mutări Comerciale</a></li>
+                        <li><a href="#services">Transport Marfă</a></li>
+                        <li><a href="#services">Depozitare</a></li>
+                        <li><a href="#services">Servicii Ambalare</a></li>
+                        <li><a href="#services">Transport Urgent</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Companie</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">Despre Noi</a></li>
+                        <li><a href="#prices">Prețuri</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Cariere</a></li>
+                        <li><a href="#">Parteneri</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Program</h3>
+                    <ul class="footer-schedule">
+                        <li>
+                            <span>Luni - Vineri</span>
+                            <strong>07:00 - 22:00</strong>
+                        </li>
+                        <li>
+                            <span>Sâmbătă</span>
+                            <strong>08:00 - 20:00</strong>
+                        </li>
+                        <li>
+                            <span>Duminică</span>
+                            <strong>09:00 - 18:00</strong>
+                        </li>
+                        <li>
+                            <span>Urgențe</span>
+                            <strong>24/7</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Trimark Plus. Toate drepturile rezervate.</p>
+                <div class="footer-legal">
+                    <a href="#">Termeni și Condiții</a>
+                    <a href="#">Politica de Confidențialitate</a>
+                    <a href="#">GDPR</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

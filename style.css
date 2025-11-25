@@ -921,15 +921,14 @@ section {
 
 .stat-box {
     padding: var(--spacing-lg);
-    background: rgba(99, 102, 241, 0.05);
-    border: 1px solid rgba(99, 102, 241, 0.1);
+    background: rgba(255, 255, 255, 0.03);
     border-radius: var(--radius-md);
     text-align: center;
     transition: all var(--transition-base);
 }
 
 .stat-box:hover {
-    background: rgba(99, 102, 241, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     transform: translateY(-4px);
 }
 
@@ -1149,15 +1148,13 @@ section {
    CONTACT SECTION
    ============================================ */
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: var(--spacing-3xl);
+    margin-bottom: var(--spacing-3xl);
 }
 
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-lg);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xl);
 }
 
 .contact-card {
@@ -1171,7 +1168,7 @@ section {
 .contact-card:hover {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(99, 102, 241, 0.3);
-    transform: translateX(8px);
+    transform: translateY(-4px);
 }
 
 .contact-icon {
@@ -1221,6 +1218,8 @@ section {
 }
 
 .contact-form-container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: var(--spacing-xl);
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -1262,6 +1261,17 @@ section {
     font-family: var(--font-primary);
     font-size: 1rem;
     transition: all var(--transition-base);
+}
+
+.form-group select {
+    background: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+}
+
+.form-group select option {
+    background: var(--dark-light);
+    color: var(--white);
+    padding: 0.5rem;
 }
 
 .form-group input:focus,
@@ -1500,7 +1510,7 @@ section {
         position: static;
     }
 
-    .contact-grid {
+    .contact-info {
         grid-template-columns: 1fr;
     }
 
